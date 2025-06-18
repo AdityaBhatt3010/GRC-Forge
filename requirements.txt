@@ -1,0 +1,32 @@
+# Environment management
+python-dotenv
+
+# CLI aesthetics
+pyfiglet
+termcolor
+
+# Langchain ecosystem
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-ollama
+
+# Document parsing
+PyMuPDF  # Required by PyPDFLoader internally (or use fitz)
+# Alternatively (if PyPDFLoader doesn't work), add:
+# pdfminer.six
+
+# Vector store
+faiss-cpu  # FAISS backend for vector similarity
+
+# NLP / Embeddings
+transformers
+huggingface-hub
+
+# Data processing & visualizations
+matplotlib
+numpy
+
+# Requests (API calls)
+requests
