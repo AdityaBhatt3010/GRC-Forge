@@ -1,0 +1,31 @@
+    _______      _____                                           
+   / ____(_)  __/ ___/__  ______ ___  ____ ___  ____ ________  __
+  / /_  / / |/_/\__ \/ / / / __ `__ \/ __ `__ \/ __ `/ ___/ / / /
+ / __/ / />  < ___/ / /_/ / / / / / / / / / / / /_/ / /  / /_/ / 
+/_/   /_/_/|_|/____/\__,_/_/ /_/ /_/_/ /_/ /_/\__,_/_/   \__, /  
+                                                        /____/   
+
+⏳ Processing: GDPR
+Okay, here is the rewritten and formatted compliance findings based on your instructions:
+
+```
+Compliance Report:
+===
+## [Framework Name] Compliance Summary
+
+**Compliant Areas:**
+Based on the provided organizational compliance report and the selected security framework ([Framework Name]), the following areas demonstrate adherence to GDPR requirements:
+
+-   The organization has appointed a Data Protection Officer (DPO) as per Article 37 of the GDPR.
+-   The DPO provides advice on data protection impact assessments and monitors their performance pursuant to Article 35.
+-   The organization uses binding corporate rules in accordance with Article 47, standard data protection clauses adopted by the Commission, and standard data protection clauses adopted by a supervisory authority (as per points (b), (c) of paragraph 1).
+-   The DPO is responsible for ensuring compliance with the binding corporate rules, as mentioned in point (h) of Article 36.4.
+-   The organization has established complaint procedures (point i of Article 36.4).
+-   The DPO monitors training and complaint-handling (point k of Article 36.4).
+-   The organization stores personal data for specified storage periods, taking into account the nature, scope, and purposes of the processing or categories of processing (as per point f of Article 25).
+...
+  💡 Fix: Implement encryption at rest/static data protection measures to safeguard ePHI integrity, as this is a common and required technical measure.
+```
+--------------------------------------------------------------------------------
+⏳ Processing: ISO27001
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...

@@ -1,0 +1,27 @@
+Compliance Summary Report - Generated on 2025-06-18 21:06:46.403414
+
+=== GDPR COMPLIANCE ===
+
+**Compliant Areas:**
+*   The organization has appointed a Data Protection Officer (DPO) as per Article 37 of the GDPR.
+*   The DPO provides advice on data protection impact assessments and monitors their performance pursuant to Article 35.
+*   The organization uses binding corporate rules in accordance with Article 47, standard data protection clauses adopted by the Commission, and standard data protection clauses adopted by a supervisory authority (as per points (b), (c) of paragraph 1).
+*   The DPO is responsible for ensuring compliance with the binding corporate rules, as mentioned in point (h) of Article 36.4.
+*   The organization has established complaint procedures (point i of Article 36.4).
+*   The DPO monitors training and complaint-handling (point k of Article 36.4).
+*   The organization stores personal data for specified storage periods, taking into account the nature, scope, and purposes of the processing or categories of processing (as per point f of Article 25).
+*   The organization has measures to protect the rights and freedoms of data subjects (as per point c of Article 32).
+*   The organization obtains or discloses personal data only when expressly laid down by Union or Member State law, providing appropriate measures to protect the data subject's legitimate interests (as per points c and d of Article 6.1(e)).
+
+**Non-Compliant Areas & Fixes:**
+*   GDPR 36.4(g)
+  💡 Fix: The organization must provide information on binding corporate rules directly to its data subjects.
+*   GDPR 25(e)
+  💡 Fix: The report should explicitly specify the controller or categories of controllers involved in processing personal data, as required by point e of Article 25.
+*   GDPR 25(m)
+  💡 Fix: The organization must implement measures to make information publicly available detailing the steps taken to safeguard employees' and other data subjects' rights, freedoms, and legitimate interests (as per point m of Article 25).
+*   GDPR Recital 286
+  💡 Fix: The report should provide more specific rules or procedures for ensuring the protection of personal data related to employees within the employment context.
+*   GDPR Recital 286
+  💡 Fix: The organization must address and detail its processing activities concerning employees' personal data, including but not limited to recruitment, contract management, work planning, equality/d diversity, health & safety, confidentiality (as per recitals 286).
+

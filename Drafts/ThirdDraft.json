@@ -1,0 +1,12 @@
+ It appears you've shared an audit report for a system, specifically for Kolide, Inc., regarding controls relevant to security. The report covers various aspects of logical access security, data management, third-party management, and more. Here are some key points:
+
+1. The company uses vulnerability scanning software to check source code for common security issues and maintains an internal SLA for responding to those issues.
+2. The company requires authentication to systems and applications using unique usernames and passwords or authorized Secure Socket Shell (SSH) keys. Authentication is required before access to the systems and applications is provisioned.
+3. The company reviews its firewall rule sets at least annually, tracks required changes to completion, and ensures production firewall rules are reviewed at least annually.
+4. The company has written agreements in place with vendors and related third-parties that include security and confidentiality commitments applicable to the entity.
+5. Access to migrate changes to production is restricted to authorized personnel.
+6. The company implements logical access security measures to protect against threats from sources outside its system boundaries, such as using secure data transmission protocols to encrypt confidential and sensitive data when transmitted over public networks.
+7. The company has electronic media containing confidential information purged or destroyed in accordance with best practices, and certificates of destruction are issued for each device destroyed.
+8. The company assesses and manages risks associated with vendors and business partners.
+9. Penetration testing is performed at least annually.
+10. Changes are implemented to infrastructure, data, software, and procedures to meet the entity's objectives, and a plan is developed and changes are implemented to remediate vulnerabilities in accordance with SLAs.

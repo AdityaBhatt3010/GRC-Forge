@@ -1,0 +1,27 @@
+{
+  "organization": "Heroku",
+  "security_policies": {
+    "encryption": null,
+    "network_security": "The company implements and maintains systems that adhere to industry-level system and network hardening standards.",
+    "access_control": "System features are designed to authorize user access while restricting unauthorized users from accessing information not needed for their role. Remote production systems can only be accessed by authorized employees possessing valid multi-factor authentication (MFA) methods or approved SSH keys."
+  },
+  "compliance": {
+    "audit_logs": null,
+    "incident_response_plan": null,
+    "risk_assessment": "The entity deploys control activities through policies that establish what is expected and proceduresthat putpoliciesintoaction.",
+    "data_protection_officer": null
+  },
+  "user_privacy": {
+    "data_subject_rights": null,
+    "consent": "Privacypoliciesandtermsofserviceareautomaticallyacknowledgeduponsign-up;writtenagreementsarenotavailable.",
+    "third_party_sharing": "The company maintains a vendor inventory with risk levels, links to security and privacy commitments for each vendor."
+  },
+  "personnel": {
+    "security_training": null,
+    "background_checks": null
+  },
+  "physical_security": {
+    "datacenter_access": "Only authorized personnel have access. Badge access control systems are in place; visitors must wear ID badges.",
+    "surveillance": "Visitor access to corporate facility/data center is recorded in logs."
+  }
+}

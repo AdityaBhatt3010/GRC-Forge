@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "framework": "Sarbanes-Oxley Act (SOX)",
+    "version": "2002",
+    "source": "https://www.congress.gov/bill/107th-congress/house-bill/3763",
+    "generated_on": "2025-06-08"
+  },
+  "sections": [
+    {
+      "id": "302",
+      "title": "Corporate Responsibility for Financial Reports",
+      "description": "CEOs and CFOs must certify the accuracy of financial statements.",
+      "requirements": [
+        {
+          "id": "302.1",
+          "summary": "Certify that financial statements are accurate and complete."
+        },
+        {
+          "id": "302.2",
+          "summary": "Establish internal controls and disclose any deficiencies."
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "title": "Management Assessment of Internal Controls",
+      "description": "Management must evaluate and report on internal control effectiveness.",
+      "requirements": [
+        {
+          "id": "404.1",
+          "summary": "Management's responsibility to maintain effective internal controls."
+        },
+        {
+          "id": "404.2",
+          "summary": "Independent auditor must attest to the internal control assessment."
+        }
+      ]
+    }
+  ]
+}

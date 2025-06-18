@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "framework": "Health Insurance Portability and Accountability Act (HIPAA)",
+    "version": "Omnibus Final Rule, 2013",
+    "source": "https://www.hhs.gov/hipaa",
+    "generated_on": "2025-06-08"
+  },
+  "rules": [
+    {
+      "id": "164.302",
+      "title": "Security Standards: General Rules",
+      "description": "Defines general security requirements for ePHI protection.",
+      "provisions": [
+        {
+          "id": "164.306",
+          "summary": "Implement reasonable and appropriate safeguards."
+        },
+        {
+          "id": "164.308",
+          "summary": "Establish security management processes and procedures."
+        }
+      ]
+    },
+    {
+      "id": "164.312",
+      "title": "Technical Safeguards",
+      "description": "Outlines technology and policies to protect ePHI.",
+      "provisions": [
+        {
+          "id": "164.312(a)(1)",
+          "summary": "Implement access control."
+        },
+        {
+          "id": "164.312(c)(1)",
+          "summary": "Implement integrity mechanisms for ePHI."
+        }
+      ]
+    }
+  ]
+}

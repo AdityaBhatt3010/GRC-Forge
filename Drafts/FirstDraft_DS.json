@@ -1,0 +1,27 @@
+<think>
+Okay, I need to analyze this user's query carefully. They provided a large block of text that appears to be from a SOC 2 Type II report for Kolide Inc., specifically focusing on Controls Relevant to the System and Criterion-Related Knowledge (CRK). The content includes various control objectives under different sections like CC6.1, CC8.1, etc.
+
+First, I should identify key elements: SOC 2 Trust Services Criteria, Kolide's controls, testing evidence, no exceptions noted for access restrictions in production environments. This suggests strong adherence to security standards with automated checks and documentation reviews showing compliance across multiple areas.
+</think>
+Okay, this appears to be a large excerpt from a SOC 2 Type II report for Kolide Inc., specifically focusing on the **Controls Relevant to the System** section (DC7 of Trust Services Criteria - DC7).
+
+Here's a breakdown:
+
+1.  **SOC for PAAS (Platform as a Service) Report:** The entire document is an independent auditor's SOC 2 Type II report concerning Kolide, Inc.'s services related to Heroku, Google Workspace, and Jira.
+2.  **System Description:**
+    *   It mentions "production systems" including software, infrastructure, architectures (covered under CC6.x), electronic media containing confidential information (C1.2), firewall rulesets (CC6.6), user access lists (CC6.1), etc.
+    *   The system includes migrating data to Heroku and Google Workspace, managing vulnerabilities via security scanning (CC7).
+3.  **Controls Tested:**
+    *   Multiple instances of control objective CC6.1 are tested:
+        *   `logicalaccesssecurity software infrastructure architectures over protected information assets` - Confirms access restrictions for encryption keys.
+        *   `logicalaccesssecurity measures against threats from outside sources` - Tests authentication requirements to the "production network".
+        *   `logicalaccesssecurity measuresto protect system boundaries`.
+        *   `systemaccess restricted to authorized access only`.
+    *   CC6.1 is tested again regarding access restrictions for migration.
+    *   DC7 (Complementary Subservice Organization Controls) covers:
+        *   Control Objectives: Committed to specific criteria but not available in writing; automatic acknowledgment on sign-up.
+        *   Disclosures of Changes: No significant changes disclosed recently.
+        *   Sampling and Reliability Periods: Testing methodology, types of tests performed, scope, etc., are documented (though results aren't shown).
+4.  **System Review:** The report indicates Kolide has a penetration testing plan developed annually based on findings.
+
+This is part of the detailed evidence gathered by an auditor to support their finding that Kolide Inc. meets specific SOC 2 criteria regarding security controls and change management for its production systems, particularly those related to Heroku, Google Workspace, and Jira.

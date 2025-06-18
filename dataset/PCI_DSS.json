@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "framework": "Payment Card Industry Data Security Standard (PCI DSS)",
+    "version": "4.0",
+    "source": "https://www.pcisecuritystandards.org/document_library",
+    "generated_on": "2025-06-08"
+  },
+  "requirements": [
+    {
+      "id": "1",
+      "title": "Install and Maintain Network Security Controls",
+      "description": "Establish and maintain a secure network infrastructure to protect cardholder data.",
+      "controls": [
+        {
+          "id": "1.1",
+          "summary": "Establish firewall and router configuration standards."
+        },
+        {
+          "id": "1.2",
+          "summary": "Secure and synchronize router and firewall rule sets."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Apply Secure Configurations to All System Components",
+      "description": "Apply secure configurations to hardware and software components to prevent exploitation.",
+      "controls": [
+        {
+          "id": "2.1",
+          "summary": "Always change vendor-supplied defaults before installing systems."
+        },
+        {
+          "id": "2.2",
+          "summary": "Develop configuration standards for all system components."
+        }
+      ]
+    }
+  ]
+}

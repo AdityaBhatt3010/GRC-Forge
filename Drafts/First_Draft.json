@@ -1,0 +1,27 @@
+{
+  "organization": "CyberSentinel Inc.",
+  "security_policies": {
+    "encryption": "Formally, documented organizational policies and codes of conduct communicate entity values and behavioral standards to personnel.",
+    "network_security": "Policies and procedures require employees to sign an acknowledgment form indicating they have been given access to the employee manual and understand their responsibility for adhering to the policies and procedures contained within the manual.",
+    "access_control": "Organizational charts are in place to communicate key areas of authority and responsibility."
+  },
+  "compliance": {
+    "audit_logs": "The incident response processes, incident reporting, and documenting along with the roles and responsibilities of the incident response team have been documented.",
+    "incident_response_plan": "The company has a documented risk management program in place that includes authorities and responsibilities in the pursuit of objectives. Roles and responsibilities for the design, development, implementation, operation, maintenance, and monitoring of information security controls are formally assigned in job descriptions and/or the Roles and Responsibilities policy.",
+    "risk_assessment": "Kolide, Inc.'s assignment of authority and responsibility activities include factors such as how authority and responsibility for operating activities are assigned and how reporting relationships and authorization hierarchies are established. It also includes policies relating to appropriate business practices, knowledge, and experience of key personnel, and resources.",
+    "data_protection_officer": null
+  },
+  "user_privacy": {
+    "data_subject_rights": "Customer data is managed, processed, and stored in accordance with relevant data protection and other regulations, with specific requirements formally established in customer agreements, if any.",
+    "consent": "All employees and contractors of the company are obligated to respect and, in all cases, to protect customer data. Additionally, Kolide, Inc. has policies and procedures in place to ensure that employees and contractors understand, contain, remediate, and communicate security incidents, as appropriate.",
+    "third_party_sharing": "Company data collected and used by Kolide, Inc. to operate the business must uphold the highest possible levels of integrity, confidentiality, and restricted availability for this information."
+  },
+  "personnel": {
+    "security_training": "Kolide, Inc.'s success is founded on sound business ethics, reinforced with a high level of efficiency, integrity, and ethical standards. The result of this success is evidenced by its proven track record for hiring and retaining top quality personnel who ensure the service operates effectively.",
+    "background_checks": "The company's incident response policies and procedures are documented and communicated to authorized users."
+  },
+  "physical_security": {
+    "datacenter_access": "Security CC6.4 Visitors are required to check in with security and show a government-issued ID prior to being granted access to the facilities",
+    "surveillance": "Kolide, Inc. management, along with the subservice provider, define the scope and responsibility of the controls necessary to meet all relevant trust services criteria through written contracts, such as service level agreements."
+  }
+}
