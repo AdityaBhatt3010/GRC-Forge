@@ -7,11 +7,11 @@ graph TD
 
 %% === Phase 1: Extract Compliance Text from PDF ===
 subgraph Phase_1_Compliance_Text_Extraction
-    A1[PDFs in data directory]
+    A1[SOC2 Report in data/ directory]
     A2[Load and split PDFs into chunks]
-    A3[Generate embeddings with HuggingFace]
-    A4[Store chunks in FAISS vectorstore]
-    A5[Define compliance audit prompt]
+    A3[Generate embeddings with allMiniLM]
+    A4[Store chunks with FAISS in vectorstore/ diectory]
+    A5[Define compliance audit information extraction prompt]
     A6[Run RetrievalQA chain using finetuned Mistral via Ollama]
     A7[Extracted compliance text saved as Given_Compliance.txt]
 
@@ -25,10 +25,10 @@ end
 
 %% === Phase 2: Framework-wise Compliance Check ===
 subgraph Phase_2_Compliance_Evaluation
-    B1[Given_Compliance.txt loaded]
-    B2[Load JSON frameworks - ISO HIPAA etc]
-    B3[Split and embed each framework]
-    B4[Store vectorstores per framework]
+    B1[Load Given_Compliance.txt]
+    B2[Load GDPR HIPAA ISO 27001 NIST 800 53 PCII DSS SOC2 and SOX framework rules in JSON format in dataset/ directory]
+    B3[Split into chunks and embed each framework via allMiniLM]
+    B4[Store vectorstores via FAISS per framework in vectorstore2/ directory]
     B5[Prompt template for clause comparison]
     B6[Run RetrievalQA using finetuned Mistral via Ollama]
     B7[Write output to Compliance_Framework_Report.txt]
@@ -41,13 +41,31 @@ subgraph Phase_2_Compliance_Evaluation
     B6 --> B7
 end
 
+%% === Phase 4: Suggestive Measures for Non-Compliance (Final Fix Summary Generation) ===
+subgraph Phase_4_Suggestive_Measures_FixSummary
+    D1[Load Compliance_Framework_Report.txt]
+    D2[Split compliance report by frameworks]
+    D3[Prompt to create summary on compliant and non-compliant clauses along with suggesting measures to fix non-compliant clauses]
+    D4[Run LLMChain using DeepSeek-R1 via Ollama]
+    D5[Remove hallucinated <think> tags from output]
+    D6[Write cleaned output to Final_Compliance_Summary.txt]
+    D7[Log unfiltered raw model output to Debug_Framework_Logs.txt]
+
+    D1 --> D2
+    D2 --> D4
+    D3 --> D4
+    D4 --> D5
+    D5 --> D6
+    D4 --> D7
+end
+
 %% === Phase 3: Clause Classification and Graph ===
 subgraph Phase_3_Clause_Mapping_and_Visualization
     C1[Load Compliance_Framework_Report.txt]
     C2[Strict clause mapping prompt using Cohere API]
     C3[Generate compliant and non-compliant clause dictionaries]
-    C4[Save Python file Clauses_Clean.py]
-    C5[Plot radar charts using matplotlib]
+    C4[Save the variables in Clauses_Clean.py]
+    C5[Plot radar charts using matplotlib and numpy]
     C6[Save radar chart as Compliance_Radar_Charts.png]
 
     C1 --> C2
@@ -57,19 +75,9 @@ subgraph Phase_3_Clause_Mapping_and_Visualization
     C5 --> C6
 end
 
-%% === Phase 4: Suggestive Measures for Non-Compliance ===
-subgraph Phase_4_Suggestive_Measures
-    D1[Load non-compliant clauses from Clauses_Clean.py]
-    D2[Prepare prompt for remediation advice]
-    D3[Run RetrievalQA using Mistral finetuned on compliance books]
-    D4[Save recommendations to Mitigation_Report.txt]
 
-    D1 --> D3
-    D2 --> D3
-    D3 --> D4
-end
 
 A7 --> B1
 B7 --> C1
-C4 --> D1
+B7 --> D1
 ```
