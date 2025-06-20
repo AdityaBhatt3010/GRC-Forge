@@ -26,7 +26,7 @@ end
 %% === Phase 2: Framework-wise Compliance Check ===
 subgraph Phase_2_Compliance_Evaluation
     B1[Load Given_Compliance.txt]
-    B2[Load GDPR HIPAA ISO 27001 NIST 800 53 PCII DSS SOC2 and SOX framework rules in JSON format in dataset/ directory]
+    B2[Load GDPR, HIPAA, ISO 27001, NIST 800-53, PCII DSS, SOC2 and SOX framework rules in JSON format in dataset/ directory]
     B3[Split into chunks and embed each framework via allMiniLM]
     B4[Store vectorstores via FAISS per framework in vectorstore2/ directory]
     B5[Prompt template for clause comparison]
