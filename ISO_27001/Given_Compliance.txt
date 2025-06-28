@@ -1,0 +1,36 @@
+Here are the relevant statements and policies related to your request:
+
+- Security controls:
+  - CC5.3 The entity deploys control activities through policies that establish what is expected and in procedures that put policies into action.
+  - The company requires changes to software and infrastructure to be understood, contained, remediated, and communicated regarding security incidents, as appropriate. The company tests their incident response plan at least annually.
+  - The entity implements logical access security software.
+  - The company has security and privacy incident response policies and procedures that are documented and communicated to authorized users.
+
+- Risk management:
+  - The entity selects, develops, and performs ongoing and/or separate host-based vulnerability scans at least quarterly on all systems.
+  - The company's information security policies and procedures have been documented and reviewed in May 2024.
+
+- Access control:
+  - The company's production systems can only be remotely accessed by authorized users.
+
+- Data protection:
+  - No specific data protection statements were found in the provided context.
+
+- Audit logs:
+  - Inspected the Incident Response Plan to determine that the company tests their incident response plan at least annually.
+  - Inspected the table to exercise held within the audit window to determine that the company tests the Incident Response Plan at least annually.
+
+- Incident response:
+  - The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.
+  - Processes, incident reporting, and documenting along with the roles and responsibilities of the incident response team have been documented.
+
+- Employee vetting and training:
+  - No specific employee vetting and training statements were found in the provided context.
+
+- Vendor/third-party management:
+  - The entity maintains a list of vendors, their risk levels, and links to their security and privacy commitments.
+  - Inspected the vendor inventory on the compliance management platform to determine that the company maintains a list of vendors, their risk levels, and links to their security and privacy commitments.
+  - Inquired with the company to determine that written agreements are not available; privacy policies and terms of service are automatically acknowledged upon sign-up.
+
+- Physical security:
+  - No specific physical security statements were found in the provided context.
