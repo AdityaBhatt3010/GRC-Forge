@@ -21,6 +21,7 @@ PyMuPDF  # Required by PyPDFLoader internally (or use fitz)
 faiss-cpu  # FAISS backend for vector similarity
 
 # NLP / Embeddings
+sentence-transformers
 transformers
 huggingface-hub
 
