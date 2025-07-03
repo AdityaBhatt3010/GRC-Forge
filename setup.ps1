@@ -4,8 +4,8 @@
 # =====================================
 
 Clear-Host
-Write-Host "==============================="
-Write-Host "     GRC-FORGE SETUP SCRIPT"
+Write-Host "===============================" -ForegroundColor Cyan
+Write-Host "     GRC-FORGE SETUP SCRIPT" -ForegroundColor Cyan
 Write-Host "===============================" -ForegroundColor Cyan
 
 # Ask user choice
