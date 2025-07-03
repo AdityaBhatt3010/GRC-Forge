@@ -14,8 +14,7 @@ langchain-ollama
 
 # Document parsing
 PyMuPDF  # Required by PyPDFLoader internally (or use fitz)
-# Alternatively (if PyPDFLoader doesn't work), add:
-# pdfminer.six
+pypdf
 
 # Vector store
 faiss-cpu  # FAISS backend for vector similarity
