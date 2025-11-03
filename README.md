@@ -195,7 +195,7 @@ This script installs dependencies, pulls Ollama models (`mistral:instruct`, `dee
 
 ## 👨‍💻 Author
 
-**Aditya Bhatt**
+**Aditya Bhatt** <br/>
 BTech CSE | Cybersecurity | EY Intern
 
 ---
