@@ -1,6 +1,5 @@
 # GRC-Forge 🛡️  
 **AI-Powered Multi-Framework Compliance Automation Toolkit**  
-Built as part of an internship at Ernst & Young (EY)
 
 ---
 
