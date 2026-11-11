@@ -1,6 +1,8 @@
 # 🛡️ GRC-Forge
 ### AI-Powered Multi-Framework Governance, Risk & Compliance Automation
 
+<br/> ![Cover](Screenshots/Cover.png) <br/>
+
 <p align="center">
   <strong>Transforming Compliance Assessment Through Retrieval-Augmented Generation, Local LLMs & Intelligent Framework Mapping.</strong>
 </p>
@@ -80,6 +82,8 @@ GRC-Forge follows a modular, multi-stage processing architecture.
 The pipeline converts audit documentation into framework-specific compliance intelligence through five logical processing stages.
 
 ### Architecture Workflow
+
+![Workflow](Screenshots/Workflow.png) <br/>
 
 ```mermaid
 flowchart TD
@@ -359,6 +363,8 @@ GRC-Forge/
 │   └── Phase4.ipynb
 │
 ├── Screenshots/
+│   ├── Cover.png
+│   ├── Worflow.png
 │   ├── Docker.png
 │   ├── Phase1_Output.png
 │   ├── Phase2_Output.png
